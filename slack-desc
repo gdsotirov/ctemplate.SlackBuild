@@ -1,0 +1,11 @@
+ctemplate: ctemplate (Library for simple but powerful C++ template language)
+ctemplate:
+ctemplate: CTemplate is a simple but powerful template language for C++. It
+ctemplate: emphasizes separating logic from presentation: it is impossible
+ctemplate: to embed application logic in this template language.
+ctemplate:
+ctemplate:
+ctemplate:
+ctemplate:
+ctemplate:
+ctemplate: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
