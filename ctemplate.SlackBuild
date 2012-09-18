@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: ctemplate.SlackBuild,v 1.2 2012/01/25 20:33:52 gsotirov Exp $
+# $Id: ctemplate.SlackBuild,v 1.3 2012/09/18 08:48:37 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=ctemplate
-VERSION=2.0
+VERSION=2.2
 BUILD=${BUILD:-1}
 ARCH=${ARCH:-i486}
 
@@ -67,7 +67,7 @@ CXXFLAGS=$SLKCFLAGS \
             --enable-shared=yes \
             --enable-static=no || exit 4
 
-make -j4 || exit 5
+make V=1 -j4 || exit 5
 make DESTDIR=$PKG install || exit 6
 # Move documents in the proper locaiton
 install -m 755 -d $PKG/usr/doc
