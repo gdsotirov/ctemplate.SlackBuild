@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Slackware build script for CTemplate
-# Copyright (C) 2012 Georgi D. Sotirov <gdsotirov@dir.bg>
+# Copyright (C) 2012-2015 Georgi D. Sotirov <gdsotirov@dir.bg>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -19,7 +19,7 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: ctemplate.SlackBuild,v 1.3 2012/09/18 08:48:37 gsotirov Exp $
+# $Id: ctemplate.SlackBuild,v 1.4 2015/04/25 11:42:35 gsotirov Exp $
 #
 
 . ../../slack-package.conf
@@ -36,7 +36,7 @@ if [ ! -e $TMP ]; then
   mkdir -p $TMP # location to build the source
 fi
 
-SRC=$TMP/$NAME-$VERSION
+SRC=$TMP/$NAME-$NAME-$VERSION
 if [ -e $SRC -a -d $SRC ]; then
   echo "Source directory '$SRC' already exists! Plaese, move it or remove it."
   exit 1
