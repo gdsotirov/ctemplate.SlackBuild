@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: ctemplate.SlackBuild,v 1.4 2015/04/25 11:42:35 gsotirov Exp $
+# $Id: ctemplate.SlackBuild,v 1.5 2015/04/29 18:47:02 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=ctemplate
-VERSION=2.2
+VERSION=2.3
 BUILD=${BUILD:-1}
 ARCH=${ARCH:-i486}
 
